@@ -1,0 +1,24 @@
+# Java / Spring Boot - compiled files
+ems-backend/target/
+ems-backend/*.jar
+ems-backend/*.war
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.class
+
+# Node / Angular / React - dependencies
+ems-frontend/node_modules/
+ems-frontend/dist/
+ems-frontend/.angular/
+
+# Secrets - never push these
+.env
+.env.local
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
